@@ -1,0 +1,767 @@
+{
+    "chart": {
+        "caption": "",
+        "subcaption": "",
+        "yaxisname": "",
+        "numvisibleplot": "21",
+        "labeldisplay": "auto",
+        "theme": "fusion",
+        "palettecolors": ["8f98da", "002049", "eda934", "0076c9"],
+        "baseFont": "Metric Regular",
+        "baseFontSize": "13",
+        "baseFontColor": "#6f6f6f",
+        "yAxisValueFontSize": "10",
+        "numberSuffix": "mm",
+        "showLegend": "0",
+        "scrollToEnd": 1,
+        "pyAxisName": "Precipitation, Irrigation, ETc",
+        "pYAxisNameFont": "Metric Regular",
+        "pYAxisNameFontSize": "14",
+        "pYAxisNameFontColor": "#6f6f6f",
+        "sYAxisName": "Water Balance",
+        "sYAxisNameFont": "Metric Regular",
+        "sYAxisNameFontSize": "14",
+        "sYAxisNameFontColor": "#6f6f6f",
+        "sNumberSuffix": "mm",
+        "showValues": "0",
+        "scrollheight": "16",
+        "scrollColor": "#e2e1e2",
+        "canvasTopPadding": 10,
+        "canvasBottomPadding": 10,
+        "flatScrollBars": "0"
+    },
+    "categories": [{
+        "category": [{
+            "label": "Sep 28 - Oct 2"
+        }, {
+            "label": "Oct 3 - 9"
+        }, {
+            "label": "Oct 10 - 16"
+        }, {
+            "label": "Oct 17 - 23"
+        }, {
+            "label": "Oct 24 - 30"
+        }, {
+            "label": "Oct 31 - Nov 6"
+        }, {
+            "label": "Nov 7 - 13"
+        }, {
+            "label": "Nov 14 - 18"
+        }, {
+            "label": "Nov 18 - 24"
+        }]
+    }],
+    "dataset": [{
+            "dataset": [{
+                "seriesname": "Precipitation",
+                "data": [{
+                    "value": 10
+                }, {
+                    "value": 20
+                }, {
+                    "value": 10
+                }, {
+                    "value": 20
+                }, {
+                    "value": 30
+                }, {
+                    "value": 30
+                }, {
+                    "value": 20
+                }, {
+                    "value": 30
+                }, {
+                    "value": 0.5
+                }]
+            }, {
+                "seriesname": "Irrigation",
+                "data": [{
+                    "value": 609.6
+                }, {
+                    "value": 10
+                }, {
+                    "value": 20
+                }, {
+                    "value": 30
+                }, {
+                    "value": 40
+                }, {
+                    "value": 30
+                }, {
+                    "value": 30
+                }, {
+                    "value": 30
+                }, {
+                    "value": 10
+                }]
+            }]
+        },
+        {
+            "dataset": [{
+                "seriesname": "ETc",
+                "data": [{
+                    "value": 10
+                }, {
+                    "value": 20
+                }, {
+                    "value": 30
+                }, {
+                    "value": 40
+                }, {
+                    "value": 10
+                }, {
+                    "value": 20
+                }, {
+                    "value": 30
+                }, {
+                    "value": 30
+                }, {
+                    "value": 40
+                }]
+            }]
+        }
+    ]
+}
+
+
+{
+    "id": "6333da024005d3000dcac205",
+    "crop_varietal": {
+        "id": "5ed9a75a39689c0912e61b7b",
+        "gdd_temp_base": 4.4,
+        "growing_season_duration": 117,
+        "name": "Unspecified",
+        "crop_category": {
+            "id": "5ed9a75339689c0912e61b31",
+            "name": "Flaxseed"
+        }
+    },
+    "site_id": "6333da01200f30000d5e55f8",
+    "growth_stages": [{
+        "name": "start",
+        "start_gdd": 0.0
+    }, {
+        "name": "seeding breakout with a bud",
+        "start_gdd": 10.0
+    }, {
+        "name": "sampling with 10-15 leaves",
+        "start_gdd": 30.0
+    }, {
+        "name": "flowering stage",
+        "start_gdd": 60.0
+    }, {
+        "name": "ripening fruit",
+        "start_gdd": 100.0
+    }],
+    "start_date": "2022-09-28",
+    "site_name": "1.112  test",
+    "stop_date": "2023-01-23",
+    "crop_varietal_id": "5ed9a75a39689c0912e61b7b",
+    "refill_threshold": null,
+    "current_gdd": 263.4,
+    "current_ndvi": null,
+    "metrics": [{
+        "date": "2022-09-28T00:00:00",
+        "gdd": 10.6,
+        "gdd_cumulative": 10.6,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "seeding breakout with a bud"
+    }, {
+        "date": "2022-09-29T00:00:00",
+        "gdd": 10.1,
+        "gdd_cumulative": 20.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "seeding breakout with a bud"
+    }, {
+        "date": "2022-09-30T00:00:00",
+        "gdd": 9.6,
+        "gdd_cumulative": 30.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "sampling with 10-15 leaves"
+    }, {
+        "date": "2022-10-01T00:00:00",
+        "gdd": 9.6,
+        "gdd_cumulative": 39.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "sampling with 10-15 leaves"
+    }, {
+        "date": "2022-10-02T00:00:00",
+        "gdd": 10.1,
+        "gdd_cumulative": 50.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "sampling with 10-15 leaves"
+    }, {
+        "date": "2022-10-03T00:00:00",
+        "gdd": 10.1,
+        "gdd_cumulative": 60.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "flowering stage"
+    }, {
+        "date": "2022-10-04T00:00:00",
+        "gdd": 10.1,
+        "gdd_cumulative": 70.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "flowering stage"
+    }, {
+        "date": "2022-10-05T00:00:00",
+        "gdd": 9.6,
+        "gdd_cumulative": 79.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "flowering stage"
+    }, {
+        "date": "2022-10-06T00:00:00",
+        "gdd": 8.8,
+        "gdd_cumulative": 88.6,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "flowering stage"
+    }, {
+        "date": "2022-10-07T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 95.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "flowering stage"
+    }, {
+        "date": "2022-10-08T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 103.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-09T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 110.5,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-10T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 117.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-11T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 125.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-12T00:00:00",
+        "gdd": 6.8,
+        "gdd_cumulative": 131.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-13T00:00:00",
+        "gdd": 6.3,
+        "gdd_cumulative": 138.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-14T00:00:00",
+        "gdd": 6.8,
+        "gdd_cumulative": 145.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-15T00:00:00",
+        "gdd": 6.8,
+        "gdd_cumulative": 151.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-16T00:00:00",
+        "gdd": 7.3,
+        "gdd_cumulative": 159.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-17T00:00:00",
+        "gdd": 6.8,
+        "gdd_cumulative": 165.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-18T00:00:00",
+        "gdd": 6.3,
+        "gdd_cumulative": 172.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-19T00:00:00",
+        "gdd": 6.8,
+        "gdd_cumulative": 179.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-20T00:00:00",
+        "gdd": 5.8,
+        "gdd_cumulative": 184.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-21T00:00:00",
+        "gdd": 5.8,
+        "gdd_cumulative": 190.6,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-22T00:00:00",
+        "gdd": 5.8,
+        "gdd_cumulative": 196.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-23T00:00:00",
+        "gdd": 5.8,
+        "gdd_cumulative": 202.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-24T00:00:00",
+        "gdd": 5.3,
+        "gdd_cumulative": 207.5,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-25T00:00:00",
+        "gdd": 4.3,
+        "gdd_cumulative": 211.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-26T00:00:00",
+        "gdd": 4.3,
+        "gdd_cumulative": 216.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-27T00:00:00",
+        "gdd": 4.8,
+        "gdd_cumulative": 220.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-28T00:00:00",
+        "gdd": 4.8,
+        "gdd_cumulative": 225.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-29T00:00:00",
+        "gdd": 4.8,
+        "gdd_cumulative": 230.5,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-30T00:00:00",
+        "gdd": 3.8,
+        "gdd_cumulative": 234.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-10-31T00:00:00",
+        "gdd": 3.3,
+        "gdd_cumulative": 237.6,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-01T00:00:00",
+        "gdd": 2.8,
+        "gdd_cumulative": 240.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-02T00:00:00",
+        "gdd": 3.3,
+        "gdd_cumulative": 243.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-03T00:00:00",
+        "gdd": 2.3,
+        "gdd_cumulative": 246.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-04T00:00:00",
+        "gdd": 1.8,
+        "gdd_cumulative": 247.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-05T00:00:00",
+        "gdd": 2.3,
+        "gdd_cumulative": 250.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-06T00:00:00",
+        "gdd": 1.8,
+        "gdd_cumulative": 251.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-07T00:00:00",
+        "gdd": 1.3,
+        "gdd_cumulative": 253.2,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-08T00:00:00",
+        "gdd": 1.8,
+        "gdd_cumulative": 255.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-09T00:00:00",
+        "gdd": 1.8,
+        "gdd_cumulative": 256.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-10T00:00:00",
+        "gdd": 2.3,
+        "gdd_cumulative": 259.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-11T00:00:00",
+        "gdd": 1.3,
+        "gdd_cumulative": 260.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-12T00:00:00",
+        "gdd": 1.3,
+        "gdd_cumulative": 261.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-13T00:00:00",
+        "gdd": 0.8,
+        "gdd_cumulative": 262.5,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-14T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 262.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-15T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 262.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-16T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 262.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-17T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 262.8,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-18T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 263.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-19T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 263.1,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-20T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 263.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-21T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 263.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-22T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 263.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-23T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 263.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-24T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 263.4,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-25T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 263.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-26T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 264.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-27T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 264.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-28T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 264.6,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-29T00:00:00",
+        "gdd": 1.3,
+        "gdd_cumulative": 265.9,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-11-30T00:00:00",
+        "gdd": 0.8,
+        "gdd_cumulative": 266.7,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-01T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 267.0,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-02T00:00:00",
+        "gdd": 0.3,
+        "gdd_cumulative": 267.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-03T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 267.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-04T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 267.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-05T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 267.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }, {
+        "date": "2022-12-06T00:00:00",
+        "gdd": 0.0,
+        "gdd_cumulative": 267.3,
+        "provenance": "api-weather",
+        "gdd_cumulative_provenance": "api-weather",
+        "growth_stage": "ripening fruit"
+    }]
+}
+
+
+{
+    "chart": {
+        "caption": "",
+        "subcaption": "",
+        "yaxisname": "",
+        "numvisibleplot": "21",
+        "labeldisplay": "auto",
+        "theme": "fusion",
+        "palettecolors": ["8f98da", "002049", "eda934", "0076c9"],
+        "baseFont": "Metric Regular",
+        "baseFontSize": "13",
+        "baseFontColor": "#6f6f6f",
+        "yAxisValueFontSize": "10",
+        "numberSuffix": "\"",
+        "showLegend": "0",
+        "scrollToEnd": 1,
+        "pyAxisName": "Precipitation, Irrigation, ETc",
+        "pYAxisNameFont": "Metric Regular",
+        "pYAxisNameFontSize": "14",
+        "pYAxisNameFontColor": "#6f6f6f",
+        "sYAxisName": "Water Balance",
+        "sYAxisNameFont": "Metric Regular",
+        "sYAxisNameFontSize": "14",
+        "sYAxisNameFontColor": "#6f6f6f",
+        "sNumberSuffix": "\"",
+        "showValues": "0",
+        "scrollheight": "16",
+        "scrollColor": "#e2e1e2",
+        "canvasTopPadding": 10,
+        "canvasBottomPadding": 10,
+        "flatScrollBars": "0"
+    },
+    "categories": [{
+        "category": [{
+            "label": "Sep 14 - 18"
+        }, {
+            "label": "Sep 19 - 25"
+        }, {
+            "label": "Sep 26 - Oct 2"
+        }, {
+            "label": "Oct 3 - 9"
+        }, {
+            "label": "Oct 10 - 16"
+        }, {
+            "label": "Oct 17 - 18"
+        }]
+    }],
+    "dataset": [{
+        "seriesname": "Precipitation",
+        "data": [{
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }]
+    }, {
+        "seriesname": "Irrigation",
+        "data": [{
+            "value": null
+        }, {
+            "value": null
+        }, {
+            "value": null
+        }, {
+            "value": null
+        }, {
+            "value": null
+        }, {
+            "value": null
+        }]
+    }, {
+        "seriesname": "ETc",
+        "data": [{
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }]
+    }, {
+        "seriesname": "Water Balance",
+        "parentYAxis": "S",
+        "renderAs": "line",
+        "data": [{
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }, {
+            "value": 0
+        }]
+    }]
+}
