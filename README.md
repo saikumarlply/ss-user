@@ -9,7 +9,7 @@ curl --location --request POST 'https://ssmms.herokuapp.com/api/SSMMS-user/creat
     "villageName": "shivaji",
     "userName": "12345667",
     "userPassword": "password",
-    "emailId":"shivaji@gmail.com"
+    "email":"shivaji@gmail.com"
 }'
 
 
